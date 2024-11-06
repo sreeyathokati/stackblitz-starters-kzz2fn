@@ -1,0 +1,108 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #004c97;
+  color: #fff;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+header p.date {
+  font-size: 1.2em;
+  color: #eee;
+  margin-bottom: 0.5em;
+}
+
+header h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+header .breadcrumb p {
+  display: inline;
+  font-size: 1.1em;
+  margin: 0 0.5em;
+  color: #ddd;
+}
+
+header .breadcrumb p:first-child {
+  font-weight: bold;
+}
+
+/* Introduction Section */
+.introduction {
+  background-color: #f9f9f9;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 8px;
+}
+
+.introduction p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 1.5em;
+}
+
+/* Section Styling */
+h2 {
+  font-size: 2.2em;
+  color: #333;
+  margin-top: 1.5em;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 2em;
+  font-size: 1.1em;
+}
+
+ul li {
+  margin-bottom: 0.8em;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  .introduction p,
+  .first-section p,
+  .second-section p {
+    font-size: 1em;
+  }
+
+  .introduction,
+  .first-section,
+  .second-section {
+    padding: 1.5em;
+  }
+}
